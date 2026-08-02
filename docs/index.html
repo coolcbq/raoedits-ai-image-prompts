@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A searchable collection of practical AI image prompts for marketing, social video, portrait editing, and concept art."
+    />
+    <link rel="canonical" href="https://coolcbq.github.io/raoedits-ai-image-prompts/" />
+    <title>AI Image Prompt Cookbook</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Prompt Cookbook home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span>Prompt Cookbook</span>
+        </a>
+        <div class="nav-links">
+          <a href="#library">Library</a>
+          <a href="#method">Method</a>
+          <a href="https://github.com/coolcbq/raoedits-ai-image-prompts">GitHub</a>
+        </div>
+      </nav>
+
+      <div class="hero-content" id="top">
+        <p class="eyebrow">Open prompt resource</p>
+        <h1>Turn image ideas into useful production briefs.</h1>
+        <p class="hero-copy">
+          Search and adapt practical prompts for product visuals, short-form video,
+          portrait editing, and concept art. Every template includes composition,
+          lighting, output constraints, and common failure prevention.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#library">Browse prompts</a>
+          <a class="button secondary" href="https://raoedits.top/">Create with Rao Edits</a>
+        </div>
+        <dl class="hero-stats" aria-label="Library summary">
+          <div><dt>32</dt><dd>Detailed workflows</dd></div>
+          <div><dt>4</dt><dd>Production categories</dd></div>
+          <div><dt>MIT</dt><dd>Open license</dd></div>
+        </dl>
+      </div>
+    </header>
+
+    <main>
+      <section class="library" id="library" aria-labelledby="library-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Searchable library</p>
+            <h2 id="library-title">Start with a production goal</h2>
+          </div>
+          <p>Copy a prompt, replace the values in braces, and refine one variable at a time.</p>
+        </div>
+
+        <div class="toolbar">
+          <label class="search-field">
+            <span class="sr-only">Search prompts</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+            </svg>
+            <input id="prompt-search" type="search" placeholder="Search by goal, subject, or format…" />
+          </label>
+          <div class="filters" role="group" aria-label="Filter by category">
+            <button class="filter is-active" type="button" data-category="all">All</button>
+            <button class="filter" type="button" data-category="marketing">Marketing</button>
+            <button class="filter" type="button" data-category="social">Social video</button>
+            <button class="filter" type="button" data-category="portrait">Portrait editing</button>
+            <button class="filter" type="button" data-category="concept">Concept art</button>
+          </div>
+        </div>
+
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="prompt-grid" id="prompt-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>No prompts match that search yet.</p>
+      </section>
+
+      <section class="method" id="method" aria-labelledby="method-title">
+        <div class="method-copy">
+          <p class="eyebrow">A repeatable method</p>
+          <h2 id="method-title">Build prompts in layers, not in a single sentence.</h2>
+          <p>
+            The strongest brief explains what the image must accomplish before describing
+            style. Lock the composition and identity first; then refine light, surface,
+            palette, and crop.
+          </p>
+          <a href="https://github.com/coolcbq/raoedits-ai-image-prompts#iteration-workflow">
+            Read the complete workflow on GitHub <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <ol class="method-steps">
+          <li><span>01</span><div><strong>Goal</strong><p>State the audience, channel, and desired outcome.</p></div></li>
+          <li><span>02</span><div><strong>Structure</strong><p>Choose framing, camera angle, hierarchy, and negative space.</p></div></li>
+          <li><span>03</span><div><strong>Light</strong><p>Describe source, direction, softness, temperature, and contrast.</p></div></li>
+          <li><span>04</span><div><strong>Constraints</strong><p>Protect identity, geometry, aspect ratio, and text-safe areas.</p></div></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>Open prompt examples for practical image workflows.</p>
+      <div>
+        <a href="https://github.com/coolcbq/raoedits-ai-image-prompts/blob/main/LICENSE">MIT License</a>
+        <a href="https://github.com/coolcbq/raoedits-ai-image-prompts">Source</a>
+      </div>
+    </footer>
+
+    <template id="prompt-card-template">
+      <article class="prompt-card">
+        <div class="card-meta">
+          <span class="category"></span>
+          <span class="ratio"></span>
+        </div>
+        <h3></h3>
+        <p class="summary"></p>
+        <pre><code></code></pre>
+        <button class="copy-button" type="button">Copy prompt</button>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

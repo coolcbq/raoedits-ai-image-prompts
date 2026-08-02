@@ -82,3 +82,10 @@ materials, controlled particles, and {brand palette}. Keep the product geometry 
 - Keep faces and products inside the central 60% for cross-platform cropping.
 - Generate backgrounds without text; add readable typography in the editor.
 - Ask for foreground layers with clean edges when planning parallax animation.
+
+## Put the prompts into practice
+
+The prompts are portable across compatible image tools. If you want a browser workflow for
+generating frames and editing supplied reference images, you can adapt them in
+[Rao Edits](https://raoedits.top/). Disclosure: Rao Edits maintains this open collection; the
+examples are intentionally generator-agnostic and do not require a specific platform.

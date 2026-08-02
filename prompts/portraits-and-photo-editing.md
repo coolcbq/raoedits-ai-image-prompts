@@ -84,3 +84,10 @@ variation and realistic depth. Do not remove people, change body shapes, or inve
 - Use conservative language for restoration; do not ask the model to “reimagine” evidence.
 - Check hair edges, earrings, glasses, fingers, teeth, and repeated background patterns.
 - Compare the edit with the source at the same zoom before export.
+
+## Put the prompts into practice
+
+Use only portraits you have permission to edit and review every result for identity drift. These
+briefs can be used in any compatible editor; a browser-based option for reference-image editing is
+[Rao Edits](https://raoedits.top/). Disclosure: Rao Edits maintains this open prompt collection,
+while the safety and quality checks are designed to remain useful with other tools as well.

@@ -81,3 +81,10 @@ faces, instruments, logos, or imitation of an existing album cover.
 - Specify construction and material logic for believable environments.
 - Request a neutral sheet background for design turnarounds and studies.
 - Exclude text whenever final copy will be added in layout software.
+
+## Put the prompts into practice
+
+These briefs describe visual properties instead of imitating a named living artist. They work with
+any compatible image model; for browser-based generation and reference-image refinement, you can
+adapt them in [Rao Edits](https://raoedits.top/). Disclosure: Rao Edits maintains this open
+collection, and the examples remain generator-agnostic and reusable under the repository license.

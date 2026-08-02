@@ -90,3 +90,10 @@ Avoid explosions, visual clutter, fake UI, unreadable lettering, and altered pro
 - **Unreadable labels:** remove generated text and add typography during layout.
 - **Plastic-looking materials:** specify roughness, reflection size, and edge behavior.
 - **Weak hierarchy:** ask for one hero product and fewer supporting props.
+
+## Put the prompts into practice
+
+These templates work with any image system that supports detailed prompts. For a browser-based
+workflow that also supports reference-image editing, you can adapt them in
+[Rao Edits](https://raoedits.top/). Disclosure: Rao Edits maintains this open prompt collection;
+the templates remain generator-agnostic and can be reused under the repository license.

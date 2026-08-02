@@ -16,6 +16,7 @@ generate and refine the results, try [Rao Edits](https://raoedits.top/).
 - [Portraits and photo editing](prompts/portraits-and-photo-editing.md)
 - [Concept art and editorial illustration](prompts/concept-art-and-editorial.md)
 - [Machine-readable prompt library](prompt-library.json)
+- [Image generation and reference-editing quality checklist](guides/image-generation-quality-checklist.md)
 
 ## A reliable prompt structure
 

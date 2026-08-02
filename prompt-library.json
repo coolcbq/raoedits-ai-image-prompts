@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "license": "MIT",
+  "variablesUseCurlyBraces": true,
+  "prompts": [
+    {
+      "id": "ecommerce-hero",
+      "category": "marketing",
+      "title": "Clean ecommerce hero",
+      "aspectRatio": "4:5",
+      "prompt": "Create a premium ecommerce hero image for {product} aimed at {audience}. Place one product at a three-quarter angle on a seamless {background color} studio sweep. Use a large softbox from upper left, subtle rim light, realistic contact shadow, and controlled reflections. Leave 35% clean negative space on the {left/right} for a headline. Preserve exact product proportions. Avoid extra products, invented text, distorted packaging, and hard glare."
+    },
+    {
+      "id": "product-exploded-view",
+      "category": "marketing",
+      "title": "Feature exploded view",
+      "aspectRatio": "16:9",
+      "prompt": "Create a technically plausible exploded view of {product} showing {components}. Arrange parts along one assembly axis with consistent spacing and subtle guide lines. Neutral background, orthographic lighting, matte materials, one accent color. Leave room for callouts. Do not invent internal parts or unreadable labels."
+    },
+    {
+      "id": "vertical-hook",
+      "category": "social-video",
+      "title": "Vertical hook frame",
+      "aspectRatio": "9:16",
+      "prompt": "Create an opening frame for a short video about {topic}. Show {subject} performing {action} with an immediate visual question. Use foreground, midground, and background separation with bright focal lighting. Keep upper 20% and lower 18% free for interface overlays. No text, watermarks, distorted hands, or clutter."
+    },
+    {
+      "id": "capcut-cover",
+      "category": "social-video",
+      "title": "CapCut template cover",
+      "aspectRatio": "9:16",
+      "prompt": "Create a high-impact cover image for a CapCut template about {concept}. Feature {subject} centered with a clean silhouette, layered glow, subtle motion streaks, and {palette}. Keep the subject inside the central safe zone. Do not render words, app logos, or interface elements."
+    },
+    {
+      "id": "professional-headshot",
+      "category": "portrait-editing",
+      "title": "Natural professional headshot",
+      "aspectRatio": "4:5",
+      "prompt": "Turn the supplied portrait into a natural professional headshot. Preserve exact identity, age, facial structure, skin texture, hairline, and expression. Use a neutral {background}, soft window-style key light, subtle fill, and realistic catchlights. Retouch temporary blemishes only. Do not reshape features, whiten skin, or change eye color."
+    },
+    {
+      "id": "background-replacement",
+      "category": "portrait-editing",
+      "title": "Background replacement",
+      "aspectRatio": "source",
+      "prompt": "Replace only the background with {new environment}. Keep the person, clothing, hair strands, accessories, pose, crop, perspective, and identity unchanged. Match horizon, depth of field, light direction, color temperature, and contact shadows. No halos, cutout edges, or changes to hands and face."
+    },
+    {
+      "id": "editorial-tech-metaphor",
+      "category": "editorial",
+      "title": "Editorial technology metaphor",
+      "aspectRatio": "3:2",
+      "prompt": "Create an editorial illustration about {technology topic} using the metaphor of {physical scene}. One clear focal idea, limited {palette}, bold geometric shapes, subtle paper texture, and thoughtful negative space. Communicate tension between {two concepts} without labels. No text, logos, or imitation of a named artist."
+    },
+    {
+      "id": "future-workspace",
+      "category": "concept-art",
+      "title": "Near-future workspace",
+      "aspectRatio": "16:9",
+      "prompt": "Design a believable near-future workspace for {profession} in {location}. Technology should be an incremental evolution of current tools with practical interfaces, ergonomic hardware, repairable materials, and visible human use. Natural morning light, grounded industrial design. Avoid hologram clichés and impossible screens."
+    }
+  ]
+}
